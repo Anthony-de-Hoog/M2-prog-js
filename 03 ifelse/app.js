@@ -16,10 +16,10 @@ class App
         if(random < 0.2)
         {
             title.style.backgroundColor = "#FF0000";
-        } else if(random >= 0.2 <= 0.6)
+        } else if(random >= 0.2 && random <= 0.6)
         {
             title.style.backgroundColor = "#B833FF";
-        } else if(random > 0.6 <= 0.75)
+        } else if(random > 0.6 && random <= 0.75)
         {
             title.style.backgroundColor = "#33FF46";
         } else if(random > 0.75 )
@@ -32,7 +32,7 @@ class App
         if(random2 < 0.2)
         {
             newsitem1.style.backgroundColor = "#FF0000";
-        } else if(random2 >= 0.2 <= 0.6)
+        } else if(random2 >= 0.2 && random <= 0.6)
         {
             newsitem1.style.backgroundColor = "#B833FF";
         } else if(random2 > 0.6 <= 0.75)
